@@ -1,12 +1,3 @@
-//your code here
-// const day = document.getElementById('day');
-// const swap = document.getElementById('swap');
-// const app = document.getElementById('app');
-
-// function swapTheme(){
-// 	app.classlist.active('night');
-// 	document.getElementById('ptag').innerHTML = "“I am an AccioJob student, ready to become an awesome full stack developer.”";
-// }
 
 function swapTheme() {
   const appDiv = document.getElementById("app");
@@ -22,7 +13,6 @@ function swapTheme() {
   } else {
     appDiv.classList.remove("night");
     appDiv.classList.add("day");
-	document.getElementById("ptag").innerText = "Hello World";
   }
 
   // Toggle button class
