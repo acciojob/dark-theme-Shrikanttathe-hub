@@ -8,8 +8,7 @@ function swapTheme() {
   if (appDiv.classList.contains("day")) {
     appDiv.classList.remove("day");
     appDiv.classList.add("night");
-    document.getElementById("ptag").innerText = "I am an AccioJob student, ready to become an awesome full stack developer.";
-
+   
   } else {
     appDiv.classList.remove("night");
     appDiv.classList.add("day");
