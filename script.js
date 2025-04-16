@@ -11,14 +11,18 @@
 function swapTheme() {
   const appDiv = document.getElementById("app");
   const swapButton = document.getElementById("swap");
+  const para = document.getElementById("ptag");
 
   // Toggle app div class
   if (appDiv.classList.contains("day")) {
     appDiv.classList.remove("day");
     appDiv.classList.add("night");
+    document.getElementById("ptag").innerText = "I am an AccioJob student, ready to become an awesome full stack developer.";
+
   } else {
     appDiv.classList.remove("night");
     appDiv.classList.add("day");
+	document.getElementById("ptag").innerText = "Hello World";
   }
 
   // Toggle button class
